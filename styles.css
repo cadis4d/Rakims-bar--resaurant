@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    opacity: 0.9;
+    color: seashell;
+}
+
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 80px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    height: 250px;
+    padding: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    color: seashell;
+    padding-right: 40px;
+}
+
+.nava {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+.picture1 {
+    background-image: url('images/IMG_8212.jpg');
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    z-index: 0;
+    align-content: center;
+}
+
+.center {
+    align-items: center;
+    background-color: black;
+    text-align: left;
+    margin-top: 30px;
+    width: 1200;
+    color: seashell;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*........menu.......*/
+.menu {
+    width: 1200px;
+    margin: 10px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-top: 1px solid seashell;
+    margin-bottom: 30px;
+}
+
+.menulist {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+.menu-item {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.menu-item img {
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px;
+}
+
+/*..........team.......*/
+.team img {
+    width: 200px;
+    height: 250px;
+    margin: 20px 20px;
+}
+
+.team figcaption {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 250px;
+    padding-top: 0px;
+
+}
+.team {
+    margin: 10px;
+    width: 1200px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-top: 1px solid seashell;
+}
+
+.team h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+/*.......footer.......*/
+.contact {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-left: 30px;
+}
+
+.get-in-touch {
+    width: 700px;
+    margin: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+footer h6 {
+    text-align: right;
+    padding-right: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid seashell;
+}
